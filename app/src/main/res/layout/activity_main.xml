@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BaseMatchStyle"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Title and Icon -->
+    <LinearLayout
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/iconCredits"
+            style="@style/IconMenu"
+            android:background="@drawable/logo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            style="@style/BaseMatchAndWrapStyle"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/marginGeneralUse"
+            android:text="@string/app_name"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Credits -->
+    <LinearLayout
+        android:id="@+id/credits"
+        style="@style/BaseMatchAndWrapStyle"
+        android:background="@drawable/bg_menu"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/CreditsText"
+            android:gravity="center"
+            android:text="@string/author" />
+
+        <TextView
+            style="@style/CreditsText"
+            android:text="@string/resources" />
+
+        <ListView
+            android:id="@+id/creditsList"
+            style="@style/CreditsList"
+            android:layout_margin="@dimen/marginGeneralUse" />
+
+    </LinearLayout>
+
+    <!--Separator/Divider-->
+    <View
+        android:id="@+id/separatorMainMenu"
+        style="@style/HorizontalSeparator" />
+
+    <!-- Tab Layout -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/slidingTabs"
+        style="@style/BaseMatchAndWrapStyle"
+        app:tabMode="scrollable" />
+
+    <!-- View Pager -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        style="@style/BaseMatchStyle" />
+
+</LinearLayout>

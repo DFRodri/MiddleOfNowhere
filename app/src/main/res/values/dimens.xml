@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General Uses -->
+    <dimen name="marginGeneralUse">16dp</dimen>
+    <dimen name="smallMarginGeneralUse">8dp</dimen>
+    <dimen name="iconSize">48dp</dimen>
+
+    <!-- list_item XML -->
+    <dimen name="heightLinearLayout">124dp</dimen>
+    <dimen name="heightImagePreview">76dp</dimen>
+    <dimen name="widthImagePreview">76dp</dimen>
+
+    <!-- place_list XML-->
+    <dimen name="dividerHeight">1dp</dimen>
+
+    <!-- Credits -->
+    <dimen name="separatorHeight">4dp</dimen>
+    <dimen name="heightListView">192dp</dimen>
+
+    <!-- Info Menu -->
+    <dimen name="iconPadding">16dp</dimen>
+    <dimen name="infoHeightImagePortrait">200dp</dimen>
+    <dimen name="infoHeightImageLandscape">400dp</dimen>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/place"
+    style="@style/ListBlock"
+    android:background="@drawable/bg_menu">
+
+    <ImageView
+        android:id="@+id/previewImage"
+        style="@style/ImageList"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/marginGeneralUse"
+        android:scaleType="centerInside"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/titlePlace"
+        style="@style/textViewList"
+        android:layout_marginBottom="@dimen/smallMarginGeneralUse"
+        android:layout_marginTop="@dimen/marginGeneralUse"
+        android:layout_toEndOf="@id/previewImage"
+        android:layout_toRightOf="@id/previewImage"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        tools:text="@string/monument0" />
+
+    <TextView
+        android:id="@+id/descriptionPlace"
+        style="@style/textViewList"
+        android:layout_below="@id/titlePlace"
+        android:layout_marginBottom="@dimen/marginGeneralUse"
+        android:layout_toEndOf="@id/previewImage"
+        android:layout_toRightOf="@id/previewImage"
+        tools:text="@string/monumentInfo0" />
+
+</RelativeLayout>

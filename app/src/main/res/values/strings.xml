@@ -1,0 +1,177 @@
+<resources>
+    <!-- APP NAME -->
+    <string name="app_name">Middle Of Nowhere - Lisbon</string>
+
+    <!-- Author -->
+    <string name="author">Created by Diogo Rodrigues</string>
+
+    <!-- Label -->
+    <string name="labelOne">Middle Of Nowhere - Lisbon</string>
+    <string name="labelTwo">Place Selected</string>
+
+
+    <!-- Credits -->
+    <string name="resources">Resources used:</string>
+
+    <!-- Names of Places -->
+    <string name="place0">Monuments</string>
+    <string name="place1">Museums</string>
+    <string name="place2">Pastries</string>
+    <string name="place3">Restaurants</string>
+
+    <!-- Buttons -->
+    <string name="moreInfo">Website</string>
+
+    <!-- Placeholders -->
+    <string name="phoneNumber">(+000) 00 000 00 00</string>
+
+    <!-- Monuments/Category Zero -->
+    <string name="monument0">São Jorge Castle</string>
+    <string name="monument1">Jerónimos Monastery</string>
+    <string name="monument2">Belém Tower</string>
+    <string name="monument3">Santa Justa Lift</string>
+    <string name="monument4">Monument to the Discoveries</string>
+
+    <string name="monumentAddress0">Rua de Santa Cruz do Castelo</string>
+    <string name="monumentAddress1">Praça do Império</string>
+    <string name="monumentAddress2">Av. Brasília</string>
+    <string name="monumentAddress3">Rua de Santa Justa</string>
+    <string name="monumentAddress4">Av. Brasília</string>
+
+    <string name="monumentPhone0">21 880 06 20</string>
+    <string name="monumentPhone1">21 362 00 34</string>
+    <string name="monumentPhone2">21 362 00 34</string>
+    <string name="monumentPhone3">21 350 01 15</string>
+    <string name="monumentPhone4">21 303 19 50</string>
+
+    <string name="monumentWebsite0">http://castelodesaojorge.pt/pt/historia/</string>
+    <string name="monumentWebsite1">http://www.mosteirojeronimos.pt</string>
+    <string name="monumentWebsite2">http://www.torrebelem.gov.pt</string>
+    <string name="monumentWebsite3">http://www.carris.pt/pt/ascensores-e-elevador/</string>
+    <string name="monumentWebsite4">http://www.padraodosdescobrimentos.pt/en/</string>
+
+    <string name="monumentInfo0">Built by the Moors, it was the last defensive stronghold for the
+        elite who resided on the citadel. After 1147, when Portugal was born, it changed to be the
+        home of the Portuguese royalty after being conquered by Dom Afonso Henriques.</string>
+    <string name="monumentInfo1">Former monastery of the Order of Saint Jerome, it\'s the
+        &lt;i>home&lt;/i> of a few important names of the Portuguese History. People like Fernando Pessoa,
+        Vasco da Gama, and Luís de Camões are buried here.</string>
+    <string name="monumentInfo2">Also known as the Tower of St. Vicent, this huge monument was part
+        of a line of three fortresses to defend the capital against attacks by sea.</string>
+    <string name="monumentInfo3">A reference for views in Lisbon since you can enjoy a really nice
+        view at the top. It was build as a solution to travel faster between the lower streets of
+        the main Baixa and the higher Largo do Carmo.</string>
+    <string name="monumentInfo4">Monument created in 1958 as a celebration to the Age of Discovery
+        in the 15th and 16th century. There is a fabulous square with the shape of a compass rose
+        gifted by the noble South African government at the time.</string>
+
+    <!-- Museums/Category One -->
+    <string name="museum0">Museum Calouste Gulbenkian</string>
+    <string name="museum1">Maritime Museum</string>
+    <string name="museum2">National Museum to the Ancient Art</string>
+    <string name="museum3">Berardo Museum</string>
+    <string name="museum4">National Museum Bordalo Pinheiro</string>
+
+    <string name="museumAddress0">Av. de Berna, nº 45&#8211;A</string>
+    <string name="museumAddress1">Praça do Império</string>
+    <string name="museumAddress2">R. das Janelas Verdes</string>
+    <string name="museumAddress3">Praça do Império</string>
+    <string name="museumAddress4">Campo Grande, nº 382</string>
+
+    <string name="museumPhone0">21 782 30 00</string>
+    <string name="museumPhone1">21 097 73 90</string>
+    <string name="museumPhone2">21 391 28 00</string>
+    <string name="museumPhone3">21 361 28 78</string>
+    <string name="museumPhone4">21 581 85 40</string>
+
+    <string name="museumWebsite0">https://gulbenkian.pt/museu/</string>
+    <string name="museumWebsite1">http://ccm.marinha.pt/pt/museu/</string>
+    <string name="museumWebsite2">http://www.museudearteantiga.pt</string>
+    <string name="museumWebsite3">http://en.museuberardo.pt/</string>
+    <string name="museumWebsite4">http://museubordalopinheiro.cm-lisboa.pt/</string>
+
+    <string name="museumInfo0">Founded in conformity with Calouste Gulbenkian\'s last will and
+        testament, this Museum accommodates the art collection of the similarly-named Foundation.
+    </string>
+    <string name="museumInfo1">Close to the Jerónimos Monastery, this Museum is administrated by the
+        Portuguese Navy. It\'s dedicated to all aspects of the history of navigation in Portugal.
+    </string>
+    <string name="museumInfo2">Most important museum of art from XII to XIX Century in Portugal.
+        Over 4000 art pieces in here ready to be watched at any time.</string>
+    <string name="museumInfo3">Free on Saturdays, this museum was founded in 2007 to accommodate
+        over 100 pieces of modern and contemporary art.</string>
+    <string name="museumInfo4">Museum entirely dedicated to the life and works of the Portuguese
+        artist Rafael Bordalo Pinheiro.</string>
+
+    <!-- Pastries/Category Two -->
+    <string name="pastry0">Factory of Pastéis de Belém</string>
+    <string name="pastry1">Confectionery Cister</string>
+    <string name="pastry2">Pastry Versailles</string>
+    <string name="pastry3">Cafe A Brasileira</string>
+    <string name="pastry4">National Confectionery</string>
+
+    <string name="pastryAddress0">Rua de Belém, nº 84&#8211;92</string>
+    <string name="pastryAddress1">Rua da Escola Politécnica, nº 107</string>
+    <string name="pastryAddress2">Av. da República, nº 15-A</string>
+    <string name="pastryAddress3">Rua Garret, nº 120&#8211;122</string>
+    <string name="pastryAddress4">Praça da Figueira, nº 18B</string>
+
+    <string name="pastryPhone0">21 363 74 23</string>
+    <string name="pastryPhone1">21 396 24 13</string>
+    <string name="pastryPhone2">21 354 63 40</string>
+    <string name="pastryPhone3">21 346 95 41</string>
+    <string name="pastryPhone4">21 342 44 70</string>
+
+    <string name="pastryWebsite0">http://pasteisdebelem.pt/</string>
+    <string name="pastryWebsite1">NA</string>
+    <string name="pastryWebsite2">
+        http://cm-lisboa.pt/equipamentos/equipamento/info/pastelaria-versailles/</string>
+    <string name="pastryWebsite3">NA</string>
+    <string name="pastryWebsite4">NA</string>
+
+    <string name="pastryInfo0">Home of the legendary &lt;i>pastél de Belém&lt;/i> since 1837.</string>
+    <string name="pastryInfo1">The confectionery where Eça de Queiroz, writer of &lt;i>Os Maias&lt;/i>,
+        used to have the breakfast.</string>
+    <string name="pastryInfo2">The very first big cafe of Lisbon. Currently is a pastry and a
+        restaurant.</string>
+    <string name="pastryInfo3">House of many intelectuals in the past, houses a statue of Fernando
+        Pessoa outside.</string>
+    <string name="pastryInfo4">Home of Portuguese pastry since 1829! Famous for their X-Mas cake
+        &lt;i>Bolo Rei&lt;/i>(Cake King).</string>
+
+    <!-- Restaurants/Category Three -->
+    <string name="restaurant0">Portvgalia</string>
+    <string name="restaurant1">Feitoria</string>
+    <string name="restaurant2">A Tasquinha do Lagarto</string>
+    <string name="restaurant3">Solar dos Presuntos</string>
+    <string name="restaurant4">O Miudinho</string>
+
+    <string name="restaurantAddress0">Rua de São Caetano, nº 4</string>
+    <string name="restaurantAddress1">Doca do Bom Sucesso Altis Belém Hotel &amp; Spa</string>
+    <string name="restaurantAddress2">Rua de Campolide, nº 258</string>
+    <string name="restaurantAddress3">Rua das Portas de Stº Antão, nº 150</string>
+    <string name="restaurantAddress4">Rua Neves Costa, nº 21&#8211;23</string>
+
+    <string name="restaurantPhone0">21 351 12 34</string>
+    <string name="restaurantPhone1">21 040 02 00</string>
+    <string name="restaurantPhone2">21 388 32 02</string>
+    <string name="restaurantPhone3">21 342 42 53</string>
+    <string name="restaurantPhone4">21 714 01 20</string>
+
+    <string name="restaurantWebsite0">https://www.portugalia.pt/en/</string>
+    <string name="restaurantWebsite1">http://www.restaurantefeitoria.com/EN/</string>
+    <string name="restaurantWebsite2">https://www.facebook.com/tasquinhadolagarto</string>
+    <string name="restaurantWebsite3">http://solardospresuntos.com/</string>
+    <string name="restaurantWebsite4">https://www.omiudinho.com/</string>
+
+    <string name="restaurantInfo0">Home of the most famous steak in Portugal for over 90 years,
+        the steak with Portugália sauce.</string>
+    <string name="restaurantInfo1">Home of quality and a Michelin star inside of Altis Belém Hotel
+        &amp; Spa.</string>
+    <string name="restaurantInfo2">One of our many typical restaurants with a small taste of home.
+    </string>
+    <string name="restaurantInfo3">Open since 1974, their motto is "Whoever comes into this home,
+        enters their own".</string>
+    <string name="restaurantInfo4">Portuguese barbecue all day and night.</string>
+
+</resources>

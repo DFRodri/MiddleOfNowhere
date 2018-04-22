@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BaseMatchStyle"
+    android:background="@android:color/darker_gray">
+
+    <!-- Info Card -->
+    <RelativeLayout
+        android:id="@+id/fullInfo"
+        style="@style/BaseMatchAndWrapStyle"
+        android:orientation="vertical">
+
+        <!-- Title and Close Button -->
+        <RelativeLayout
+            android:id="@+id/titleText"
+            style="@style/BaseMatchAndWrapStyle"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/BaseMatchAndWrapStyle"
+                android:layout_margin="@dimen/marginGeneralUse"
+                android:layout_toLeftOf="@id/close"
+                android:layout_toStartOf="@id/close"
+                android:gravity="center_vertical"
+                android:lines="2"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textStyle="bold"
+                tools:text="@string/museum0" />
+
+            <ImageView
+                android:id="@+id/close"
+                style="@style/BaseWrapStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/marginGeneralUse"
+                android:layout_marginRight="@dimen/marginGeneralUse"
+                android:padding="@dimen/iconPadding"
+                android:src="@drawable/ic_cancel_grey_24dp"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <!-- Image Of The Place -->
+        <ImageView
+            android:id="@+id/image"
+            style="@style/InfoImageLandscape"
+            android:layout_below="@id/titleText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/marginGeneralUse"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:layout_marginStart="@dimen/marginGeneralUse"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription" />
+
+        <!-- Curiosity -->
+        <TextView
+            android:id="@+id/desc"
+            style="@style/BaseMatchAndWrapStyle"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:padding="@dimen/marginGeneralUse"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="@string/monumentInfo0" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/address"
+            style="@style/BaseMatchAndWrapStyle"
+            android:layout_below="@id/desc"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:drawableLeft="@drawable/ic_place_grey_24dp"
+            android:drawablePadding="@dimen/iconPadding"
+            android:drawableStart="@drawable/ic_place_grey_24dp"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:padding="@dimen/marginGeneralUse"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="@string/restaurantAddress1" />
+
+        <!-- Phone Number -->
+        <TextView
+            android:id="@+id/phone"
+            style="@style/BaseWrapStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/address"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginStart="@dimen/marginGeneralUse"
+            android:drawableLeft="@drawable/ic_phone_grey_24dp"
+            android:drawablePadding="@dimen/iconPadding"
+            android:drawableStart="@drawable/ic_phone_grey_24dp"
+            android:padding="@dimen/marginGeneralUse"
+            android:text="@string/phoneNumber"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <!-- Website -->
+        <TextView
+            android:id="@+id/website"
+            style="@style/BaseWrapStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:drawableLeft="@drawable/ic_public_grey_24dp"
+            android:drawablePadding="@dimen/iconPadding"
+            android:drawableStart="@drawable/ic_public_grey_24dp"
+            android:gravity="center"
+            android:padding="@dimen/marginGeneralUse"
+            android:text="@string/moreInfo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

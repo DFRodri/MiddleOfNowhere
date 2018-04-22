@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/colorPrimary">
+
+    <!-- Info Card -->
+    <LinearLayout
+        android:id="@+id/fullInfo"
+        style="@style/BaseMatchStyle"
+        android:layout_margin="@dimen/marginGeneralUse"
+        android:orientation="vertical">
+
+        <!-- Title and Close Button -->
+        <RelativeLayout
+            android:id="@+id/titleText"
+            style="@style/BaseMatchAndWrapStyle">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/BaseMatchAndWrapStyle"
+                android:layout_margin="@dimen/marginGeneralUse"
+                android:layout_toLeftOf="@id/close"
+                android:layout_toStartOf="@id/close"
+                android:gravity="center_vertical"
+                android:lines="2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                tools:text="@string/museum0" />
+
+            <ImageView
+                android:id="@+id/close"
+                style="@style/BaseWrapStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/marginGeneralUse"
+                android:layout_marginRight="@dimen/marginGeneralUse"
+                android:padding="@dimen/iconPadding"
+                android:src="@drawable/ic_cancel_grey_24dp"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <!-- Image Of The Place -->
+        <ImageView
+            android:id="@+id/image"
+            style="@style/InfoImagePortrait"
+            android:layout_margin="@dimen/marginGeneralUse"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+        <!-- Curiosity -->
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorText"
+            tools:text="@string/monumentInfo0" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:drawableLeft="@drawable/ic_place_grey_24dp"
+            android:drawablePadding="@dimen/iconPadding"
+            android:drawableStart="@drawable/ic_place_grey_24dp"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:padding="@dimen/marginGeneralUse"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorText"
+            tools:text="@string/restaurantAddress1" />
+
+        <!-- Phone Number -->
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:drawableLeft="@drawable/ic_phone_grey_24dp"
+            android:drawablePadding="@dimen/iconPadding"
+            android:drawableStart="@drawable/ic_phone_grey_24dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/marginGeneralUse"
+            android:text="@string/phoneNumber"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorText" />
+
+        <!-- Website -->
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginGeneralUse"
+            android:layout_marginRight="@dimen/marginGeneralUse"
+            android:drawableLeft="@drawable/ic_public_grey_24dp"
+            android:drawablePadding="@dimen/iconPadding"
+            android:drawableStart="@drawable/ic_public_grey_24dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/marginGeneralUse"
+            android:text="@string/moreInfo"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorText"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

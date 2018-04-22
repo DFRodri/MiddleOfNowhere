@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BaseMatchStyle"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/resourceName"
+        style="@style/BaseWrapStyle"
+        android:layout_marginEnd="@dimen/marginGeneralUse"
+        android:layout_marginLeft="@dimen/marginGeneralUse"
+        android:layout_marginRight="@dimen/marginGeneralUse"
+        android:layout_marginStart="@dimen/marginGeneralUse"
+        android:layout_marginTop="@dimen/marginGeneralUse"
+        android:lines="1"
+        android:textColor="@color/colorText"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="@tools:sample/lorem/random" />
+
+    <TextView
+        android:id="@+id/resourceURL"
+        style="@style/BaseWrapStyle"
+        android:layout_marginBottom="@dimen/marginGeneralUse"
+        android:layout_marginEnd="@dimen/marginGeneralUse"
+        android:layout_marginLeft="@dimen/marginGeneralUse"
+        android:layout_marginRight="@dimen/marginGeneralUse"
+        android:layout_marginStart="@dimen/marginGeneralUse"
+        android:lines="1"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="@tools:sample/lorem/random" />
+
+</LinearLayout>

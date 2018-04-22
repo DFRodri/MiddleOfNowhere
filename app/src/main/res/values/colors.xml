@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="colorPrimary">#C8E6C9</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorText">#212121</color>
+
+    <!-- List -->
+    <color name="divider">#bcaaa4</color>
+
+    <!-- Divider -->
+    <color name="genericSeparator">#5d4037</color>
+
+</resources>

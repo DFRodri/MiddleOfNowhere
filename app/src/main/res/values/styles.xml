@@ -1,0 +1,85 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Basic Style -->
+    <style name="BaseMatchStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="BaseWrapStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BaseMatchAndWrapStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- List_Item XML -->
+    <style name="textViewList" parent="BaseWrapStyle">
+        <item name="android:layout_marginLeft">@dimen/marginGeneralUse</item>
+        <item name="android:layout_marginRight">@dimen/marginGeneralUse</item>
+        <item name="android:lines">2</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ImageList">
+        <item name="android:layout_width">@dimen/widthImagePreview</item>
+        <item name="android:layout_height">@dimen/heightImagePreview</item>
+    </style>
+
+    <style name="ListBlock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/heightLinearLayout</item>
+    </style>
+
+    <!-- Credits -->
+    <style name="HorizontalSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/separatorHeight</item>
+        <item name="android:background">@color/genericSeparator</item>
+    </style>
+
+    <style name="CreditsText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/marginGeneralUse</item>
+        <item name="android:layout_marginTop">@dimen/marginGeneralUse</item>
+    </style>
+
+    <style name="CreditsList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/heightListView</item>
+    </style>
+
+    <!-- Info Activity -->
+    <style name="InfoImagePortrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/infoHeightImagePortrait</item>
+    </style>
+
+    <style name="InfoImageLandscape">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/infoHeightImageLandscape</item>
+    </style>
+
+    <!-- Icon Menu -->
+    <style name="IconMenu">
+        <item name="android:layout_width">@dimen/iconSize</item>
+        <item name="android:layout_height">@dimen/iconSize</item>
+        <item name="android:layout_margin">@dimen/marginGeneralUse</item>
+    </style>
+
+</resources>
