@@ -16,7 +16,7 @@
 <p><img src="https://github.com/DFRodri/MiddleOfNowhere/blob/master/screenshot/Screenshot_1.png" height="25%" width="25%">
 <img src="https://github.com/DFRodri/MiddleOfNowhere/blob/master/screenshot/Screenshot_2.png" width="25%" height="25%"></p>
 
-<p>Note: Screenshots use an old version of the icon used. Recent one is a lot better</p>
+<p>Note: Screenshots use an old version of the icon being showed. Check the files for a recent, and cleaner, version.</p>
 
 ## Here is a video showing it working (Recorded with Android Studio so no audio)
 
