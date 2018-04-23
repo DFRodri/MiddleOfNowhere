@@ -20,6 +20,7 @@
         </activity>
         <activity
             android:name=".InfoActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/labelTwo" />
     </application>
 

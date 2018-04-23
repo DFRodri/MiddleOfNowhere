@@ -12,11 +12,14 @@ import android.widget.ListView;
 import com.example.android.middleofnowhere.Adapter.CreditsAdapter;
 import com.example.android.middleofnowhere.Adapter.SimpleFragmentPageAdapter;
 import com.example.android.middleofnowhere.CustomClass.Credits;
+import com.example.android.middleofnowhere.CustomClass.Places;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.internal.Utils;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -83,23 +86,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //method that adds the credits objects to the array list
-    private void setupCredits(){
-        creditsArrayList.add(new Credits("PlanetWare","planetware.com/tourist-attractions-/lisbon-p-lisb-lisb.htm"));
-        creditsArrayList.add(new Credits("Deli Portugal","deliportugal.com/compra/pasteis-de-belem-3-pacotes-x-6-uni-459536"));
-        creditsArrayList.add(new Credits("Trip Advisor","tripadvisor.com.br/LocationPhotoDirectLink-g189158-d3422202-i75850971-Confeitaria_Cister-Lisbon_Lisbon_District_Central_Portugal.html"));
-        creditsArrayList.add(new Credits("CNN","edition.cnn.com/travel/article/lisbon-portugal-pastry-tarts-pastelarias/index.html"));
-        creditsArrayList.add(new Credits("Lisbonne-Idee","lisbonne-idee.pt/p3079-rua-garrett-encontra-belas-lojas-antigas-famosos-cafes.html"));
-        creditsArrayList.add(new Credits("Restos de Collecção","restosdecoleccao.blogspot.pt/2017/12/"));
-        creditsArrayList.add(new Credits("Timeout","timeout.pt/lisboa/pt/museus/os-museus-que-tem-de-visitar-em-lisboa"));
-        creditsArrayList.add(new Credits("Facebook","facebook.com/pg/tasquinhadolagarto/about/?ref=page_internal"));
-        creditsArrayList.add(new Credits("Solar dos Presuntos","solardospresuntos.com/pt-pt/contactos.aspx"));
-        creditsArrayList.add(new Credits("Restaurante Feitoria","restaurantefeitoria.com/"));
-        creditsArrayList.add(new Credits("Portugália","portugalia.pt/pt/fale-connosco.html#tm-top-a"));
-        creditsArrayList.add(new Credits("Restaurante O Miúdinho","omiudinho.com/contactos"));
-        creditsArrayList.add(new Credits("LifeCooler","lifecooler.com/artigo/comer/restaurante-solar-dos-presuntos/330512/"));
-        creditsArrayList.add(new Credits("Itinari","itinari.com/location/pastelaria-versailles"));
-        creditsArrayList.add(new Credits("Castelo de São Jorge","castelodesaojorge.pt/en/history/"));
-        creditsArrayList.add(new Credits("Google Maps","google.com/maps"));
-        creditsArrayList.add(new Credits("Wikipedia","wikipedia.org"));
+    private void setupCredits() {
+        creditsArrayList.add(new Credits(getString(R.string.creditName0), getString(R.string.creditURL0)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName1), getString(R.string.creditURL1)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName2), getString(R.string.creditURL2)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName3), getString(R.string.creditURL3)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName4), getString(R.string.creditURL4)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName5), getString(R.string.creditURL5)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName6), getString(R.string.creditURL6)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName7), getString(R.string.creditURL7)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName8), getString(R.string.creditURL8)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName9), getString(R.string.creditURL9)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName10), getString(R.string.creditURL10)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName11), getString(R.string.creditURL11)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName12), getString(R.string.creditURL12)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName13), getString(R.string.creditURL13)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName14), getString(R.string.creditURL14)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName15), getString(R.string.creditURL15)));
+        creditsArrayList.add(new Credits(getString(R.string.creditName16), getString(R.string.creditURL16)));
     }
 }

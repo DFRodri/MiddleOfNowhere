@@ -2,6 +2,7 @@ package com.example.android.middleofnowhere;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -11,8 +12,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.middleofnowhere.CustomClass.Places;
-
-import java.net.URI;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -74,10 +73,14 @@ public class InfoActivity extends AppCompatActivity {
                 if (!currentPlace.getNewWebsite().equals("NA")) {
                     Uri homepage = Uri.parse(currentPlace.getNewWebsite());
                     Intent openLink = new Intent(Intent.ACTION_VIEW, homepage);
-                    startActivity(openLink);
-                }else{
-                    String error = "Website Not Available";
-                    Toast.makeText(InfoActivity.this, error, Toast.LENGTH_SHORT).show();
+                    //to make sure that the user has something to open the urls sent
+                    if (openLink.resolveActivity(getPackageManager()) != null) {
+                        startActivity(openLink);
+                    } else {
+                        Toast.makeText(InfoActivity.this, getString(R.string.noAPP), Toast.LENGTH_LONG).show();
+                    }
+                } else {
+                    Toast.makeText(InfoActivity.this, getString(R.string.error), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -86,7 +89,8 @@ public class InfoActivity extends AppCompatActivity {
         goBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InfoActivity.this, MainActivity.class);
+                Intent intent = NavUtils.getParentActivityIntent(InfoActivity.this);
+                NavUtils.navigateUpTo(InfoActivity.this, intent);
                 startActivity(intent);
             }
         });

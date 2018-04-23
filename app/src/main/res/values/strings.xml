@@ -9,7 +9,9 @@
     <string name="labelOne">Middle Of Nowhere - Lisbon</string>
     <string name="labelTwo">Place Selected</string>
 
-
+    <!-- Error Warnings -->
+    <string name="error">Website Not Available</string>
+    <string name="noAPP">Please install an APP that can open a URL</string>
     <!-- Credits -->
     <string name="resources">Resources used:</string>
 
@@ -173,5 +175,42 @@
     <string name="restaurantInfo3">Open since 1974, their motto is "Whoever comes into this home,
         enters their own".</string>
     <string name="restaurantInfo4">Portuguese barbecue all day and night.</string>
+
+    <!-- Credits-->
+
+    <string name="creditName0">PlanetWare</string>
+    <string name="creditURL0">planetware.com/tourist-attractions-/lisbon-p-lisb-lisb.htm</string>
+    <string name="creditName1">Deli Portugal</string>
+    <string name="creditURL1">deliportugal.com/compra/pasteis-de-belem-3-pacotes-x-6-uni-459536</string>
+    <string name="creditName2">Trip Advisor</string>
+    <string name="creditURL2">tripadvisor.com.br/LocationPhotoDirectLink-g189158-d3422202-i75850971-Confeitaria_Cister-Lisbon_Lisbon_District_Central_Portugal.html</string>
+    <string name="creditName3">CNN</string>
+    <string name="creditURL3">edition.cnn.com/travel/article/lisbon-portugal-pastry-tarts-pastelarias/index.html</string>
+    <string name="creditName4">Lisbonne-Idee</string>
+    <string name="creditURL4">lisbonne-idee.pt/p3079-rua-garrett-encontra-belas-lojas-antigas-famosos-cafes.html</string>
+    <string name="creditName5">Restos de Collecção</string>
+    <string name="creditURL5">restosdecoleccao.blogspot.pt/2017/12/</string>
+    <string name="creditName6">Timeout</string>
+    <string name="creditURL6">timeout.pt/lisboa/pt/museus/os-museus-que-tem-de-visitar-em-lisboa</string>
+    <string name="creditName7">Facebook</string>
+    <string name="creditURL7">facebook.com/pg/tasquinhadolagarto/about/?ref=page_internal</string>
+    <string name="creditName8">Solar dos Presuntos</string>
+    <string name="creditURL8">solardospresuntos.com/pt-pt/contactos.aspx</string>
+    <string name="creditName9">Restaurante Feitoria</string>
+    <string name="creditURL9">restaurantefeitoria.com</string>
+    <string name="creditName10">Portugália</string>
+    <string name="creditURL10">portugalia.pt/pt/fale-connosco.html#tm-top-a</string>
+    <string name="creditName11">Restaurante O Miúdinho</string>
+    <string name="creditURL11">omiudinho.com/contactos</string>
+    <string name="creditName12">LifeCooler</string>
+    <string name="creditURL12">lifecooler.com/artigo/comer/restaurante-solar-dos-presuntos/330512/</string>
+    <string name="creditName13">Itinari</string>
+    <string name="creditURL13">itinari.com/location/pastelaria-versailles</string>
+    <string name="creditName14">Castelo de São Jorge</string>
+    <string name="creditURL14">castelodesaojorge.pt/en/history/</string>
+    <string name="creditName15">Google Maps</string>
+    <string name="creditURL15">google.com/maps</string>
+    <string name="creditName16">Wikipedia</string>
+    <string name="creditURL16">wikipedia.org</string>
 
 </resources>
